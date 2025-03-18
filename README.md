@@ -1,1 +1,2 @@
-# image_transfer_cnn
+# Image Style Transfer Using CNNs
+A Flask application that implements neural style transfer, allowing users to blend content and style images seamlessly. The application leverages the power of PyTorch for the style transfer algorithm and uses Tailwind CSS for modern, responsive styling. This combination ensures both high-performance image processing and an intuitive, visually appealing user interface.
