@@ -4,29 +4,7 @@ A Flask application that implements neural style transfer, allowing users to ble
 
 Additionally, a camera module is added whereby users can submit content images through their webcam.
 
-[Medium Blog About the project](https://medium.com/@sureshnithin1729/image-style-transfer-using-cnns-8ba3041df359)
 
-## Demo Video
-
-
-https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/9ae61e41-accf-43e1-b851-4b71ba304cb3
-
-
-
-[Watch the Demo Video on YouTube](https://www.youtube.com/watch?v=6c5A9ZEjpB8)
-
-## Screenshots
-
-![Screenshot from 2024-06-14 23-37-51](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/2fd68a5e-973b-4f99-9593-c85fdaf080e4)
-![Screenshot from 2024-06-14 23-38-12](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/d8ca06bc-e472-4af5-9752-fbc34e9dc544)
-![Screenshot from 2024-06-14 23-38-21](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/791eda31-668a-47e9-84d6-4a8b7288e065)
-![Screenshot from 2024-06-14 23-38-41](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/6bffac62-4ce9-484f-86e8-fe6c409242e9)
-
-![Screenshot from 2024-06-14 23-38-48](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/e6212818-b730-44c3-b380-06fffdaf6d77)
-![Screenshot from 2024-06-14 23-39-50](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/6a2f1323-42f7-48f0-81b4-97ad8d67216a)
-![Screenshot from 2024-06-14 23-40-16](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/b944b8b7-9b0c-49d6-982a-f82552d462b2)
-![Screenshot from 2024-06-14 23-40-26](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/a40a260b-8794-441a-8b22-24509eccdd8f)
-![Screenshot from 2024-06-14 23-40-33](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/a14ff611-1b71-4323-9a99-23064c6a148e)
 
 
 ## What is Image Style Transfer?
@@ -43,13 +21,11 @@ Examples :
 
 ![montreal](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/cc9ec4ee-1553-45aa-b815-0d2af3c0bb80)
 
-## Research Paper 
-In this project, we will replicate the style transfer method described in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch.
 
 ## VGG19 Architecture
 For this style transfer project, we utilize the features extracted from the 19-layer VGG Network, which includes a sequence of convolutional and pooling layers, along with several fully-connected layers. The convolutional layers are labeled by their stack and sequence within the stack, such as `Conv_1_1` for the first layer in the first stack, and `Conv_2_1` for the first layer in the second stack. The deepest convolutional layer is `Conv_5_4`.
 
-![Screenshot from 2024-06-10 12-51-05](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/06904212-117f-468c-9de0-a302c9b001cc)
+
 
 
 ## Separating Style and Content
