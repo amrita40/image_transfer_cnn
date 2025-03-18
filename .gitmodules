@@ -1,0 +1,3 @@
+[submodule "AesPA-Net"]
+	path = AesPA-Net
+	url = https://github.com/Kibeom-Hong/AesPA-Net.git
